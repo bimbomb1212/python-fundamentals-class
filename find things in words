@@ -1,0 +1,29 @@
+string1 = 'yeet'
+string2 = 'ur bad man boiiiiiiii'
+string3 = 'sup brofam'
+string4 = 'yolooo'
+string5 = 'YAYAYAYAYYAYAYYAYAYAYYAAYAYAYAY'
+
+lst = []
+
+lst.append(string1)
+lst.append(string2)
+lst.append(string3)
+lst.append(string4)
+lst.append(string5)
+
+print(lst)
+
+if 3 == 3:
+    print('math is always true exept for when it is not')
+
+
+for word in lst:
+    if 'o' in word:
+        print(word + ', has an O in it!')
+    if len(word) > 10:
+        print(word + ', has more than 10 characters!')
+    if not len(word) > 10:
+        print(word + ', does not have more than 10 letters')
+    if not 'o' in word:
+        print(word + ', does not have and 0 in it!')
